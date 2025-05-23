@@ -1,6 +1,6 @@
 import streamlit as st
 import asyncio
-from app.social_media_agent import content_writer_agent, get_transcript, Runner, ItemHelpers
+from social_media_agent import content_writer_agent, get_transcript, Runner, ItemHelpers
 import json
 
 st.set_page_config(
