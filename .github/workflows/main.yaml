@@ -26,7 +26,7 @@ jobs:
         with:
           push: true
           context: ./app
-          file: .
+          file: ./Dockerfile
           platforms: linux/amd64
           tags: manimahesh/streamlit:latest
           secrets: |
